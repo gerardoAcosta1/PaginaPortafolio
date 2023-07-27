@@ -71,7 +71,7 @@ body{
 }
 
 .title{
-    margin-left: 2em;
+    margin-left: .5em;
     margin-top: 1em;
 }
 .presentation{
@@ -87,7 +87,7 @@ body{
     font-size: 25px;
     margin-top: 1.9rem;
     color: rgb(73, 70, 70);
-    margin-left: 20px;
+    
     max-width: 700px;
 }
 
@@ -113,7 +113,7 @@ body{
 img{
     margin-top: 2em;
     width: 250px;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 /***********************CONTAINER 2*************************/
@@ -137,12 +137,12 @@ img{
     
 }
 .description2{
-    margin-left: 3em;
+    margin-left: .5em;
     margin-top: 1em;
    
 }
 .container-dates{
- margin-left: 2em;
+ margin-left: .2em;
  
  max-width: 600px;
  
@@ -164,12 +164,12 @@ img{
 .item-personal{
     border-bottom: 0.1px solid gray;
     margin-bottom: 2em;
-    margin-left: 2em;
+    margin-left: .5em;
     padding: 1em;
 
 }
 .curriculum{
-    margin-left: 3em;
+    margin-left: 1em;
     margin-right: 3em;
     border: 1px dashed black;
     padding: 12px;
@@ -189,7 +189,8 @@ img{
     width: 300px;
     height: 30px;
     border: 1px solid rgb(163, 161, 161);
-    margin: 3em;
+    margin-top: 3em;
+    margin-left: .5em;
 }
 .statistics-1{
     width: 20%;
@@ -218,13 +219,13 @@ img{
 }
 .container3-description{
     margin-right: 3em;
-    margin-left: 3em;
+    margin-left: .5em;
     margin-top: 1em;
 }
 .card-images{
     width: 250px;
     border: 1px solid black;
-    margin-left: 2em;
+   
     margin-top: 3em;
     margin-bottom: 1em;
     box-shadow: 2px 2px 8px gray;
