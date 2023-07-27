@@ -225,7 +225,7 @@ img{
 .card-images{
     width: 250px;
     border: 1px solid black;
-   
+   margin-left: 1em;
     margin-top: 3em;
     margin-bottom: 1em;
     box-shadow: 2px 2px 8px gray;
