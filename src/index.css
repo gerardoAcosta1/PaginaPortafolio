@@ -62,7 +62,7 @@ body{
     
     background-position-x: center;
     width: 100%;
-    height: max-content;
+    
     
 }
 .container-visible{
@@ -240,7 +240,9 @@ img{
     margin-bottom: .5em;
     
 }
-
+.container4{
+    min-height: 100vh;
+}
 p{
     font-size: 18px;
     padding: 12px;
