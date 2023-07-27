@@ -177,12 +177,14 @@ img{
 }
 /*************STATISTICS ELEMENT*************/
 .container-statistics{
-    margin-top: 3em;
+    margin-top: 1em;
+    min-height: 100vh;
     
    
 }
 .statistics-title{
-    margin-left: 2em;
+    margin-left: 1em;
+    margin-top: 3em;
 }
 .container-bar{
     
@@ -190,6 +192,7 @@ img{
     height: 30px;
     border: 1px solid rgb(163, 161, 161);
     margin-top: 3em;
+    margin-bottom: 2em;
     margin-left: .5em;
 }
 .statistics-1{
