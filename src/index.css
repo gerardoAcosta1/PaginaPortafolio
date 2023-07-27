@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    
+}
+/***********************MENU*****************/
+.menu__container{
+ background-color: #2b2b2b;
+ color: white;
+}
+.menu__header{
+    right: 0;
+    position: absolute;
+    color: white;
+}
+.menu__group{
+   text-align: center;
+   
+}
+.menu__list{
+    
+    list-style: none;
+    display: flex;
+}
+.menu__item{
+    border-bottom: 1px solid gray;
+    margin: 2em;
+    cursor: pointer;
+    font-size: 25px;
+}
+.menu__item.active{
+    color: rgba(123, 156, 62, 0.767);
+}
+.menu__item:hover{
+    color: rgba(123, 156, 62, 0.767);
+}
+.menu-visible{
+    transform: scale(0) ;
+    position: absolute;
+}
+/***********************CONTAINER 1**************/
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #131313;
+    background-image: url('../public/foto/fondo/serpiente.png');
+    background-repeat: no-repeat;
+   
+    background-image: center;
+    
+    background-position-x: center;
+    width: 100%;
+    height: max-content;
+    
+}
+.container-visible{
+     transform:scaleY(0);
+    position: absolute;
+}
+
+.title{
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.presentation{
+    margin-left: 50px;
+    margin-top: 1em;
+    color: rgb(58, 56, 56);
+}
+.presentation__dos{
+    margin-top:.5em;
+    margin-left: 30px;
+}
+.description{
+    font-size: 25px;
+    margin-top: 1.9rem;
+    color: rgb(73, 70, 70);
+    margin-left: 20px;
+    max-width: 700px;
+}
+
+.boton{
+    margin-left: 17px;
+    margin-top: 5em;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(123, 156, 62, 0.767) ;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px 2px rgb(7, 7, 7);
+    cursor: pointer;
+}
+.contact{
+    color: white;
+}
+.name{
+    color: rgba(123, 156, 62, 0.767);
+    font-size: 2rem;
+}
+img{
+    margin-top: 2em;
+    width: 250px;
+    margin-left: 3em;
+}
+
+/***********************CONTAINER 2*************************/
+.container__2{
+    background-color: #131313;
+    background-image: url('../public/foto/fondo/serpiente.png');
+    background-repeat: no-repeat;
+ 
+    background-image: center;
+    
+    background-position-x: center;
+    background-position-y: center;
+}
+.mi{
+    font-family: 'Lumanosimo', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgba(123, 156, 62, 0.767);
+}
+.container2-personal{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.description2{
+    margin-left: 3em;
+    margin-top: 1em;
+   
+}
+.container-dates{
+ margin-left: 2em;
+ 
+ max-width: 600px;
+ 
+ 
+}
+.title-personal{
+    margin-top: 2.5em;
+    font-size: 38px;
+    margin-bottom: 1em;
+}
+.list-personal{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+ flex-wrap: wrap;
+    
+    
+}
+.item-personal{
+    border-bottom: 0.1px solid gray;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    padding: 1em;
+
+}
+.curriculum{
+    margin-left: 3em;
+    margin-right: 3em;
+    border: 1px dashed black;
+    padding: 12px;
+    background-color: beige;
+}
+/*************STATISTICS ELEMENT*************/
+.container-statistics{
+    margin-top: 3em;
+    
+   
+}
+.statistics-title{
+    margin-left: 2em;
+}
+.container-bar{
+    
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(163, 161, 161);
+    margin: 3em;
+}
+.statistics-1{
+    width: 20%;
+    height:30px;
+    background-color: rgba(123, 156, 62, 0.767);
+    
+}
+.statistics-2{
+    width: 30%;
+    height:30px;
+    background-color: rgba(123, 156, 62, 0.767);
+}
+.statistics-3{
+    width: 25%;
+    height:30px;
+    background-color: rgba(123, 156, 62, 0.767);
+}
+
+
+
+/**************CONTAINER 3*****************************/
+.container-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container3-description{
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.card-images{
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 2em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 8px gray;
+}
+.card-image{
+    width: 250px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: .5em;
+    
+}
+
+p{
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+}
+
+/********************* TEXT COLOR *************/
+h5,h6,span,h2,h3,a{
+    color: rgb(180, 180, 180);
+    text-shadow: 2px 2px 2px black;
+}
+h4{
+   color: rgba(123, 156, 62, 0.767);
+}
+/***************FORM****************/
+.formuser-container{
+    width: 100%;
+   
+    background-color: #0003;
+    
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.formuser{
+    width: 100%;
+    max-width: 300px;
+    padding: 2em 1.5em 2.5em;
+    background-color: white;
+    border-radius: 0.7em;
+    
+}
+.formuser__title{
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+.formuser__close{
+    
+    font-size: 1.2rem;
+    top: 1em;
+    right: 1.5em;
+    cursor: pointer;
+}
+
+.formuser__group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+}
+.formuser__label{
+ font-size: 0.9rem;
+ font-weight: 400;
+ margin-left: 1em;
+}
+.formuser__input{
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    border: solid 1px rgb(27, 114, 129);
+}
+.formuser__btn{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(58, 122, 194);
+    color: white;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em ;
+    margin-top: 1em;
+}
+.formuser__btn:hover{
+    filter: brightness(1.2);
+}
+
+@media all and (max-width: 960px ){
+    .menu__list{
+       flex-direction: column;
+    }
+   
+  
+    
+   
+    
+}
+@media all and (min-width: 960px ){
+    
+    .container{
+        flex-direction: row;
+        
+        height: 100vh;
+    }
+}
+
