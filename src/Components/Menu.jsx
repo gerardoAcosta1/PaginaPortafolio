@@ -7,7 +7,10 @@ const Menu = ({visible, isVisible, setCounter, counter}) => {
     if ( e == 2) setCounter(2)
     if ( e == 3) setCounter(3)
     if ( e == 4) setCounter(4)
-    isVisible()
+    if(screen.width < 700){
+      isVisible()
+    }
+    
   }
   return (
     <div className="menu__container">
@@ -17,7 +20,7 @@ const Menu = ({visible, isVisible, setCounter, counter}) => {
           <li onClick={() => handleAll(1)} className={`menu__item ${counter == 1 ? 'active' : ''}`}>Home</li>
           <li onClick={() => handleAll(2)} className={`menu__item ${counter == 2 ? 'active' : ''}`}>Acerca de mi</li>
           <li onClick={() => handleAll(3)} className={`menu__item ${counter == 3 ? 'active' : ''}`}>Portafolio</li>
-          <li onClick={isVisible} className={`menu__item ${counter == 4 ? 'active' : ''}`}>Contacto</li>
+          <li  className={`menu__item ${counter == 4 ? 'active' : ''}`}>Contacto</li>
         </ul>
       </div>
     </div>

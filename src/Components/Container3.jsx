@@ -23,7 +23,10 @@ const Container3 = ({ counter }) => {
                     <a href="https://poetic-brioche-1c2bda.netlify.app/"  target="blanck"><img className="card-image" src="./foto/Portafolio/crud.jpg" alt="" /></a>
                     <p><a target="blanck" href="https://poetic-brioche-1c2bda.netlify.app/">Se crea un CRUD para insertar, eliminar, actualizar y leer información de un Api de usuarios</a></p>
                 </div>
-                
+                <div className="card-images">
+                    <a href="https://main--phenomenal-lily-2f763c.netlify.app/"  target="blanck"><img className="card-image" src="./foto/Portafolio/pokedex.jpg" alt="" /></a>
+                    <p><a target="blanck" href="https://main--phenomenal-lily-2f763c.netlify.app/">Se obtienen datos de una Api 'pokemon', se utilizan las librerías de react-redux y @reduxjs/toolkit para generar estados globales; se agregó un sectión donde se puede elegir pokemon por tipo y un sistema de paginación</a></p>
+                </div>
             </div>
         </div>
     )

@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: #131313;
 }
 .main{
     display: flex;
@@ -57,11 +58,12 @@ body{
     background-color: #131313;
     background-image: url('../public/foto/fondo/serpiente.png');
     background-repeat: no-repeat;
-   
+   align-items: center;
     background-image: center;
     
     background-position-x: center;
     width: 100%;
+    min-height: 100vh;
     
     
 }
@@ -87,6 +89,7 @@ body{
     font-size: 25px;
     margin-top: 1.9rem;
     color: rgb(73, 70, 70);
+    margin-left: .5em;
     
     max-width: 700px;
 }
@@ -113,7 +116,7 @@ body{
 img{
     margin-top: 2em;
     width: 250px;
-    margin-left: 1em;
+    margin-left: .5em;
 }
 
 /***********************CONTAINER 2*************************/
